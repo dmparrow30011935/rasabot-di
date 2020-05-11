@@ -1,0 +1,67 @@
+2020-05-07 12:36:48,393 [INFO ]  Starting Rasa server on http://localhost:5005
+2020-05-07 12:36:51,452 [INFO ]  Entry Point [tensor2tensor.envs.tic_tac_toe_env:TicTacToeEnv] registered with id [T2TEnv-TicTacToeEnv-v0]
+2020-05-07 12:37:49,267 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/webhook'
+Traceback (most recent call last):
+  File "/home/dave/.local/lib/python3.6/site-packages/sanic/app.py", line 918, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/home/dave/.local/lib/python3.6/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/home/dave/.local/lib/python3.6/site-packages/sanic/router.py", line 470, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /webhook not found
+2020-05-07 12:53:16,657 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/webhook'
+Traceback (most recent call last):
+  File "/home/dave/.local/lib/python3.6/site-packages/sanic/app.py", line 918, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/home/dave/.local/lib/python3.6/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/home/dave/.local/lib/python3.6/site-packages/sanic/router.py", line 470, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /webhook not found
+2020-05-07 12:54:53,196 [INFO ]  Starting Rasa server on http://localhost:5005
+2020-05-07 12:54:56,281 [INFO ]  Entry Point [tensor2tensor.envs.tic_tac_toe_env:TicTacToeEnv] registered with id [T2TEnv-TicTacToeEnv-v0]
+2020-05-07 12:54:58,224 [ERROR]  Unable to start server
+Traceback (most recent call last):
+  File "/home/dave/.local/lib/python3.6/site-packages/sanic/server.py", line 860, in serve
+    http_server = loop.run_until_complete(server_coroutine)
+  File "uvloop/loop.pyx", line 1456, in uvloop.loop.Loop.run_until_complete
+  File "uvloop/loop.pyx", line 1727, in create_server
+OSError: [Errno 98] error while attempting to bind on address ('0.0.0.0', 5005): address already in use
+2020-05-07 12:57:10,486 [INFO ]  Starting Rasa server on http://localhost:5005
+2020-05-07 12:57:13,527 [INFO ]  Entry Point [tensor2tensor.envs.tic_tac_toe_env:TicTacToeEnv] registered with id [T2TEnv-TicTacToeEnv-v0]
+2020-05-07 12:57:21,907 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/webhook'
+Traceback (most recent call last):
+  File "/home/dave/.local/lib/python3.6/site-packages/sanic/app.py", line 918, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/home/dave/.local/lib/python3.6/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/home/dave/.local/lib/python3.6/site-packages/sanic/router.py", line 470, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /webhook not found
+2020-05-07 12:57:23,939 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/webhook'
+Traceback (most recent call last):
+  File "/home/dave/.local/lib/python3.6/site-packages/sanic/app.py", line 918, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/home/dave/.local/lib/python3.6/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/home/dave/.local/lib/python3.6/site-packages/sanic/router.py", line 470, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /webhook not found
+2020-05-07 12:57:25,900 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/webhook'
+Traceback (most recent call last):
+  File "/home/dave/.local/lib/python3.6/site-packages/sanic/app.py", line 918, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/home/dave/.local/lib/python3.6/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/home/dave/.local/lib/python3.6/site-packages/sanic/router.py", line 470, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /webhook not found
+2020-05-07 12:58:03,249 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/rest/webhook'
+Traceback (most recent call last):
+  File "/home/dave/.local/lib/python3.6/site-packages/sanic/app.py", line 918, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/home/dave/.local/lib/python3.6/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/home/dave/.local/lib/python3.6/site-packages/sanic/router.py", line 470, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /rest/webhook not found
