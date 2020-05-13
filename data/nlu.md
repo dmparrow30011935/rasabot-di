@@ -28,6 +28,15 @@
 - see you around
 - see you later
 - ok bye
+- catch you later 
+- see you in awhile 
+- toodles
+- this hasbeen great bye 
+- see you soon
+- cheers bye
+- g2g
+- g2g bye
+
 
 ## intent:affirm
 - yes
@@ -110,6 +119,12 @@
 - got it
 - understood
 - k
+- yep
+- yea 
+- yeah
+- uh huh
+- umm hmm
+
 
 ## intent:opinion+positive
 - nice!
