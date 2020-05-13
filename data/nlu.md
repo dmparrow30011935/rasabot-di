@@ -96,3 +96,10 @@
 - am I talking to a human?
 - what are are you?
 - what are you?
+
+## intent:personal_question
+- what do you do for fun?
+- Tell me something you enjoy?
+- How do you unwind?
+- do you have any hobbies?
+- Can you recommend any activities?
