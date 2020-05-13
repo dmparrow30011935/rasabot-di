@@ -24,7 +24,7 @@ responses:
   utter_goodbye:
   - text: Bye
   - text: Ciao
-  - text: Tuchus.
+  - text: Tschüss
   utter_iamabot:
   - text: I am Dave Arrow's  digital interview assistant, a chat-bot powered by Rasa.
     buttons:
