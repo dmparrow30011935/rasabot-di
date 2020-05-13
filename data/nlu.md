@@ -104,3 +104,26 @@
 - do you have any hobbies?
 - Can you recommend any activities?
 - do you have any hobbies
+
+## intent:acknowledge
+- ok
+- got it
+- understood
+- k
+
+## intent:opinion+positive
+- nice!
+- excellent
+- that's awesome
+
+## intent:opinion+negative
+- ugh
+- that sucks
+- woah! that's [expensive](price)
+
+## intent:insult
+- stupid bot
+- your ugly
+- fuck you 
+- i hate you 
+- 
