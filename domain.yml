@@ -2,8 +2,10 @@ session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: false
 intents:
-- greet
-- goodbye
+- greet:
+    triggers: utter_greet
+- goodbye:
+    triggers: utter_goodbye
 - affirm
 - deny
 - mood_great
