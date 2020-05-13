@@ -32,6 +32,5 @@
 
 ## happy question
 * greet
-  - utter_greet
-* mood_great
-  - utter_question
+  - utter_personal_interests
+* personal_question

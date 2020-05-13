@@ -41,7 +41,6 @@
 - ok that's pretty cool
 - thank you
 - yes it did
-- do you have any hobbies
 
 ## intent:deny
 - no
@@ -104,3 +103,4 @@
 - How do you unwind?
 - do you have any hobbies?
 - Can you recommend any activities?
+- do you have any hobbies
