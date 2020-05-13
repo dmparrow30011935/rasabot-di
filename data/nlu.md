@@ -113,6 +113,8 @@
 - do you have any hobbies?
 - Can you recommend any activities?
 - do you have any hobbies
+- tell me about yourself
+
 
 ## intent:acknowledge
 - ok
