@@ -5,12 +5,29 @@
 - good morning
 - good evening
 - hey there
+- hello how's it going
+- HELLO
+- hello how are you
+- heyhehey
+- hellohellohello whathello what'shello what's thehello what's goinghello what's going onhello what's going onhello what's going onhello what's going onhello what's going on
+- hey how are you
+- hello?
+- hellok cool
+- can you hear what I'm saying
+- help you
+- can you speak now
+- hello again
+- hello hello
+- still listening
+- hey how's it going
+- Hello
 
 ## intent:goodbye
 - bye
 - goodbye
 - see you around
 - see you later
+- ok bye
 
 ## intent:affirm
 - yes
@@ -18,6 +35,12 @@
 - of course
 - that sounds good
 - correct
+- OK I guess
+- yeah it's great thanks
+- yeah yes good thank you
+- ok that's pretty cool
+- thank you
+- yes it did
 
 ## intent:deny
 - no
@@ -26,6 +49,10 @@
 - don't like that
 - no way
 - not really
+- nesa helicopter was coming down and Frank brother's got separated and it's influence everyone got cord because he was running and they all came out
+- call White
+- fight
+- how's it going
 
 ## intent:mood_great
 - perfect
@@ -36,6 +63,19 @@
 - I am feeling very good
 - I am great
 - I'm good
+- great how are you?
+- good thank you how are you
+- awesome play
+- good how are you
+- how are you?
+- good
+- good thanks how are you
+- awesome
+- good thanks you
+- utter_greet
+- great how are you
+- how are you
+- great thanks how are you
 
 ## intent:mood_unhappy
 - sad
@@ -54,3 +94,5 @@
 - are you a human?
 - am I talking to a bot?
 - am I talking to a human?
+- what are are you?
+- what are you?
