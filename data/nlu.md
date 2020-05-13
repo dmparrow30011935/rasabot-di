@@ -132,6 +132,12 @@
 - nice!
 - excellent
 - that's awesome
+- so cool
+- grand
+- great
+- thats awesome
+- awesome
+- fab
 
 ## intent:opinion+negative
 - ugh
