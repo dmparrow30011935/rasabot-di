@@ -61,7 +61,7 @@
 - nesa helicopter was coming down and Frank brother's got separated and it's influence everyone got cord because he was running and they all came out
 - call White
 - fight
-- how's it going
+
 
 ## intent:mood_great
 - perfect
@@ -139,6 +139,39 @@
 - awesome
 - fab
 
+## intent:hiring
+- yes we are looking for a software developer
+- yes
+- we sure are 
+- yea 
+- yep
+- yea 
+- yeah
+- could be
+- we are looking for a software developer
+- i am looking for a software developer
+- software developer
+- maybe
+
+
+## intent:just_chating
+- no
+- never
+- I don't think so
+- don't like that
+- no way
+- not really
+- just seeing what you can do 
+- unsure 
+- dont know yet 
+- just testing the waters
+- who knows
+- just here for a chat 
+- i just want to talk 
+- only looking 
+
+
+
 ## intent:opinion+negative
 - ugh
 - that sucks
@@ -149,4 +182,4 @@
 - your ugly
 - fuck you 
 - i hate you 
-- 
+
