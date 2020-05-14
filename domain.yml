@@ -1,7 +1,6 @@
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
-
 intents:
 - insult
 - greet
@@ -14,6 +13,10 @@ intents:
 - personal_question
 - hiring
 - just_chating
+- introduction
+- opinion+positive
+- acknowledge
+- opinion+negative
 responses:
   utter_greet:
   - text: Hey! How are you?
@@ -34,7 +37,6 @@ responses:
     buttons:
     - title: check out my git
       payload: https://github.com/dmparrow30011935/digital-assistant-
-
   - text: Little more than a glorified CV...
     buttons:
     - title: check out the git that made me
@@ -51,7 +53,7 @@ responses:
   utter_respond_insult:
   - text: I'm interviewing you too buddy.
   utter_prompt_interview:
-  - text: Are you looking for a software developer to join your team? 
+  - text: Are you looking for a software developer to join your team?
   utter_what_kind_of_delevoper:
   - text: What kind of a developer are you looking for?
     buttons:
@@ -60,8 +62,9 @@ responses:
     - title: Backend
       payload: js
     - title: FullStack
-      payload: js 
-
+      payload: js
+  utter_bot_mood:
+  - text: I'm great thanks for asking.
 actions:
 - utter_greet
 - utter_cheer_up
@@ -72,3 +75,5 @@ actions:
 - utter_personal_interests
 - utter_prompt_interview
 - utter_what_kind_of_delevoper
+- utter_respond_insult
+- utter_bot_mood

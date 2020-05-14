@@ -87,6 +87,7 @@
 - great thanks how are you
 - Yes that's very cute. What sort of day are you having?
 - okay
+- good how are you?
 
 ## intent:mood_unhappy
 - sad
@@ -154,6 +155,7 @@
 - i am looking for a software developer
 - software developer
 - maybe
+- yes we are as a matter of fact
 
 ## intent:just_chating
 - no

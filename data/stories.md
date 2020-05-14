@@ -6,7 +6,6 @@
 * hiring
   - utter_what_kind_of_delevoper
 
-
 ## sad path 1
 * greet
   - utter_greet
@@ -41,3 +40,13 @@
   - utter_greet
 * hiring
   - utter_what_kind_of_delevoper
+
+## New Story
+
+* greet
+    - utter_greet
+* mood_great
+    - utter_iamabot
+    - utter_prompt_interview
+* hiring
+    - utter_what_kind_of_delevoper
