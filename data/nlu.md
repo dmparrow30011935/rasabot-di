@@ -21,6 +21,7 @@
 - still listening
 - hey how's it going
 - Hello
+- good thanks you?
 
 ## intent:goodbye
 - bye
@@ -49,6 +50,7 @@
 - ok that's pretty cool
 - thank you
 - yes it did
+- thats cool
 
 ## intent:deny
 - no
@@ -83,6 +85,8 @@
 - great how are you
 - how are you
 - great thanks how are you
+- Yes that's very cute. What sort of day are you having?
+- okay
 
 ## intent:mood_unhappy
 - sad
@@ -95,6 +99,7 @@
 - not very good
 - extremely sad
 - so sad
+- I'm not bad. I need a new knee
 
 ## intent:bot_challenge
 - are you a bot?
@@ -103,6 +108,7 @@
 - am I talking to a human?
 - what are are you?
 - what are you?
+- What can you talk about?
 
 ## intent:personal_question
 - what do you do for fun?
@@ -112,6 +118,7 @@
 - Can you recommend any activities?
 - do you have any hobbies
 - tell me about yourself
+- tell me about yourself?
 
 ## intent:acknowledge
 - ok
@@ -168,7 +175,6 @@
 - ugh
 - that sucks
 
-
 ## intent:insult
 - stupid bot
 - your ugly
@@ -177,4 +183,4 @@
 
 ## intent:introduction
 - my name is dave
-
+- dave arrow
