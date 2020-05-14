@@ -167,7 +167,7 @@
 ## intent:opinion+negative
 - ugh
 - that sucks
-- woah! that's [expensive](price)
+
 
 ## intent:insult
 - stupid bot
