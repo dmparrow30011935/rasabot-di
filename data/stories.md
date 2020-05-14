@@ -2,9 +2,9 @@
 * greet
   - utter_greet
 * mood_great
-  - utter_prompt_interview:
+  - utter_prompt_interview
 * hiring
-  - utter_what_kind_of_delevoper:
+  - utter_what_kind_of_delevoper
 
 
 ## sad path 1
@@ -36,6 +36,8 @@
 ## happy question
 * greet
   - utter_greet
-  - utter_start_interview
+  - utter_prompt_interview
 * personal_question
   - utter_greet
+* hiring
+  - utter_what_kind_of_delevoper

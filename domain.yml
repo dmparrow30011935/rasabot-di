@@ -57,10 +57,10 @@ responses:
     buttons:
     - title: frontend Js
       payload: js
-    - title: Backend 
+    - title: Backend
       payload: js
-    - title: FullStack 
-      payload: js
+    - title: FullStack
+      payload: js 
 
 actions:
 - utter_greet
@@ -71,3 +71,4 @@ actions:
 - utter_iamabot
 - utter_personal_interests
 - utter_prompt_interview
+- utter_what_kind_of_delevoper
