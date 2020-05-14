@@ -3,7 +3,7 @@ session_config:
   carry_over_slots_to_new_session: false
 
 intents:
-- insult: {triggers: utter_respond_insult}
+- insult
 - greet
 - goodbye
 - affirm
