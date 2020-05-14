@@ -2,7 +2,10 @@
 * greet
   - utter_greet
 * mood_great
-  - utter_happy
+  - utter_prompt_interview:
+* hiring
+  - utter_what_kind_of_delevoper:
+
 
 ## sad path 1
 * greet
