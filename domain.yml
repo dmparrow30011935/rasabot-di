@@ -53,7 +53,7 @@ responses:
   utter_prompt_interview:
   - text: Are you looking for a software developer to join your team? 
   utter_what_kind_of_delevoper:
-    buttons:
+  - buttons:
     - title: frontend Js
       payload: js
     - title: Backend 
