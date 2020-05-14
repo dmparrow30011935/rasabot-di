@@ -175,5 +175,6 @@
 - fuck you
 - i hate you
 
-## intent:intduction
+## intent:introduction
 - my name is dave
+
