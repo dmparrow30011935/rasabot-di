@@ -1,22 +1,21 @@
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: false
-slots:
-  name:
-    type: text
-    initial_value: "human"
 intents:
-- insult: {triggers: utter_respond_insult}
-- greet:
-    triggers: utter_greet
-- goodbye:
-    triggers: utter_goodbye
+- insult:
+    triggers: utter_respond_insult
+- greet
+- goodbye
 - affirm
 - deny
 - mood_great
 - mood_unhappy
 - bot_challenge
 - personal_question
+- acknowledge
+- opinion+negative
+- opinion+positive
+- introduction
 responses:
   utter_greet:
   - text: Hey! How are you?
@@ -60,3 +59,4 @@ actions:
 - utter_goodbye
 - utter_iamabot
 - utter_personal_interests
+- utter_respond_insult

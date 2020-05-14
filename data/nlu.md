@@ -28,15 +28,14 @@
 - see you around
 - see you later
 - ok bye
-- catch you later 
-- see you in awhile 
+- catch you later
+- see you in awhile
 - toodles
-- this hasbeen great bye 
+- this hasbeen great bye
 - see you soon
 - cheers bye
 - g2g
 - g2g bye
-
 
 ## intent:affirm
 - yes
@@ -50,6 +49,7 @@
 - ok that's pretty cool
 - thank you
 - yes it did
+- thats cool
 
 ## intent:deny
 - no
@@ -114,7 +114,7 @@
 - Can you recommend any activities?
 - do you have any hobbies
 - tell me about yourself
-
+- tell me about yourself?
 
 ## intent:acknowledge
 - ok
@@ -122,11 +122,10 @@
 - understood
 - k
 - yep
-- yea 
+- yea
 - yeah
 - uh huh
 - umm hmm
-
 
 ## intent:opinion+positive
 - nice!
@@ -142,11 +141,13 @@
 ## intent:opinion+negative
 - ugh
 - that sucks
-- woah! that's [expensive](price)
 
 ## intent:insult
 - stupid bot
 - your ugly
-- fuck you 
-- i hate you 
-- 
+- fuck you
+- i hate you
+
+## intent:intduction
+- my name is dave
+- dave arrow

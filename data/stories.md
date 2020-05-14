@@ -33,6 +33,5 @@
 ## happy question
 * greet
   - utter_greet
-  - utter_start_interview
 * personal_question
-  - utter_greet
+  - utter_start_interview
