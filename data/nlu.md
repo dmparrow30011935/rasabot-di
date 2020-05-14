@@ -119,11 +119,9 @@
 ## intent:opinion+negative
 - ugh
 - that sucks
-- woah! that's [expensive](price)
 
 ## intent:insult
 - stupid bot
 - your ugly
-- fuck you 
-- i hate you 
-- 
+- fuck you
+- i hate you
