@@ -90,6 +90,9 @@
 - Yes that's very cute. What sort of day are you having?
 - okay
 - good how are you?
+- good Thanks how are you?
+- Good thanks you?
+- im good thanks you?
 
 ## intent:mood_unhappy
 - sad
@@ -175,6 +178,8 @@
 - just here for a chat
 - i just want to talk
 - only looking
+- i'm not sure at the minute
+- not right now
 
 ## intent:opinion+negative
 - ugh
