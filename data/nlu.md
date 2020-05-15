@@ -147,6 +147,8 @@
 - thats awesome
 - awesome
 - fab
+
+## intent:greet+opinion
 - Bro this is freaking cool
 
 ## intent:hiring
