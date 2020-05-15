@@ -82,4 +82,4 @@
 * mood_great
   - utter_prompt_interview
 * hiring
-  - utter_what_kind_of_delevop
+  - utter_what_kind_of_delevoper

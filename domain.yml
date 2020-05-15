@@ -17,7 +17,9 @@ intents:
 - opinion+positive
 - acknowledge
 - opinion+negative
-- greet+opinion
+- greet+opinion 
+- get_started
+- javascript_developer
 
 responses:
   utter_greet:
