@@ -150,6 +150,11 @@
 
 ## intent:greet+opinion
 - Bro this is freaking cool
+- wow this is great 
+- haha this bot is awesome 
+- hello!! super cool
+- amazing haha, hello.
+
 
 ## intent:hiring
 - yes we are looking for a software developer
@@ -196,6 +201,7 @@
 ## intent:introduction
 - my name is dave
 - dave arrow
+
 
 ## intent:javascript_developer
 - js
