@@ -197,3 +197,6 @@
 
 ## intent:javascript_developer
 - js
+
+## intent:get_started
+- /get_started
