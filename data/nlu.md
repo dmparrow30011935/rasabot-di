@@ -155,7 +155,6 @@
 - hello!! super cool
 - amazing haha, hello.
 
-
 ## intent:hiring
 - yes we are looking for a software developer
 - yes

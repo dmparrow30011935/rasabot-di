@@ -17,6 +17,8 @@ intents:
 - opinion+positive
 - acknowledge
 - opinion+negative
+- greet+opinion
+
 responses:
   utter_greet:
   - text: Hey! How are you?
