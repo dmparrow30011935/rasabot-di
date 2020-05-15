@@ -22,6 +22,8 @@
 - hey how's it going
 - Hello
 - good thanks you?
+- Hello sir
+- how's it going
 
 ## intent:goodbye
 - bye
@@ -142,6 +144,7 @@
 - thats awesome
 - awesome
 - fab
+- Bro this is freaking cool
 
 ## intent:hiring
 - yes we are looking for a software developer
@@ -186,3 +189,6 @@
 ## intent:introduction
 - my name is dave
 - dave arrow
+
+## intent:javascript_developer
+- js
