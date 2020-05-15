@@ -1,6 +1,6 @@
 session_config:
   session_expiration_time: 60
-  carry_over_slots_to_new_session: true
+  carry_over_slots_to_new_session: false
 intents:
 - insult
 - greet
@@ -18,7 +18,8 @@ intents:
 - acknowledge
 - opinion+negative
 - greet+opinion
-
+- get_started
+- javascript_developer
 responses:
   utter_greet:
   - text: Hey! How are you?
