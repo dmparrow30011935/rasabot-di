@@ -69,7 +69,7 @@ responses:
   utter_bot_mood:
   - text: I'm great thanks for asking.
   utter_js_front:
-  - text: Awesome!
+  - text: Awesome! i love making frontend magic!
 actions:
 - utter_greet
 - utter_cheer_up
