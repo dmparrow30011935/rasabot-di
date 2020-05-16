@@ -17,10 +17,9 @@ intents:
 - opinion+positive
 - acknowledge
 - opinion+negative
-- greet+opinion 
+- greet+opinion
 - get_started
 - javascript_developer
-
 responses:
   utter_greet:
   - text: Hey! How are you?
@@ -69,6 +68,8 @@ responses:
       payload: js
   utter_bot_mood:
   - text: I'm great thanks for asking.
+  utter_js_front:
+  - text: Awesome!
 actions:
 - utter_greet
 - utter_cheer_up
@@ -81,3 +82,4 @@ actions:
 - utter_what_kind_of_delevoper
 - utter_respond_insult
 - utter_bot_mood
+- utter_js_front

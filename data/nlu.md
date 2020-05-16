@@ -39,6 +39,7 @@
 - cheers bye
 - g2g
 - g2g bye
+- bbye
 
 ## intent:affirm
 - yes
@@ -93,6 +94,7 @@
 - good Thanks how are you?
 - Good thanks you?
 - im good thanks you?
+- good thanks how are you?
 
 ## intent:mood_unhappy
 - sad
@@ -150,8 +152,8 @@
 
 ## intent:greet+opinion
 - Bro this is freaking cool
-- wow this is great 
-- haha this bot is awesome 
+- wow this is great
+- haha this bot is awesome
 - hello!! super cool
 - amazing haha, hello.
 
@@ -200,7 +202,7 @@
 ## intent:introduction
 - my name is dave
 - dave arrow
-
+- im dave arrow
 
 ## intent:javascript_developer
 - js
