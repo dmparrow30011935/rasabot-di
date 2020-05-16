@@ -2,6 +2,7 @@ session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
 intents:
+- question_js
 - insult
 - greet
 - goodbye
@@ -64,6 +65,10 @@ responses:
   - text: I'm great thanks for asking.
   utter_js_front:
   - text: Awesome! i love making frontend magic!
+  utter_anwser_js:
+  - text: I really enjoy immersive extended reality and web design with a sleek user
+      experience. I think the magic happens when the design and the technology fit
+      together.
 actions:
 - utter_greet
 - utter_cheer_up
@@ -77,3 +82,4 @@ actions:
 - utter_respond_insult
 - utter_bot_mood
 - utter_js_front
+- utter_anwser_js

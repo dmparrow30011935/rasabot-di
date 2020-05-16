@@ -24,6 +24,7 @@
 - good thanks you?
 - Hello sir
 - how's it going
+- hello how is it going
 
 ## intent:goodbye
 - bye
@@ -180,6 +181,7 @@
 - software developer
 - maybe
 - yes we are as a matter of fact
+- My team and i are currently recruiting
 
 ## intent:just_chating
 - no
@@ -219,3 +221,6 @@
 
 ## intent:get_started
 - /get_started
+
+## intent:question_js
+- How do you make frontend magic?
