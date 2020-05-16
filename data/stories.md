@@ -1,7 +1,16 @@
 ## happy path
-* greet
+* greet 
   - utter_greet
 * mood_great
+  - utter_bot_mood
+  - utter_prompt_interview
+* hiring
+  - utter_what_kind_of_delevoper
+## happy path 2
+* get_started
+  - utter_greet
+* mood_great
+  - utter_bot_mood
   - utter_prompt_interview
 * hiring
   - utter_what_kind_of_delevoper
@@ -36,24 +45,14 @@
 ## happy question
 * greet
   - utter_greet
-  - utter_prompt_interview
 * personal_question
-  - utter_greet
+  - utter_personal_interests
 * hiring
   - utter_what_kind_of_delevoper
 
-## New Story
 
-* greet
-    - utter_greet
-* mood_great
-    - utter_iamabot
-    - utter_prompt_interview
-* hiring
-    - utter_what_kind_of_delevoper
 
 ## Story from conversation with bda252544a77499f8def04f267a16f58 on May 15th 2020
-
 * get_started
     - utter_greet
 * affirm
@@ -61,7 +60,6 @@
     - utter_prompt_interview
 
 ## New Story
-
 * greet
     - utter_greet
 * mood_great
