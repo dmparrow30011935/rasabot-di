@@ -36,14 +36,8 @@ responses:
   - text: Ciao
   - text: Tschüss
   utter_iamabot:
-  - text: I am Dave Arrow's  digital interview assistant, a chat-bot powered by Rasa.
-    buttons:
-    - title: check out my git
-      payload: https://github.com/dmparrow30011935/digital-assistant-
-  - text: Little more than a glorified CV...
-    buttons:
-    - title: check out the git that made me
-      payload: git
+  - text: I am Dave Arrows  digital interview assistant, a chat-bot powered by Rasa.
+      [Check out my git](https://github.com/dmparrow30011935)
   utter_personal_interests:
   - text: I'm a great fan botany, and the outdoors
     image: https://source.unsplash.com/featured/?{nature}

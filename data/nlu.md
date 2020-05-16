@@ -95,6 +95,10 @@
 - Good thanks you?
 - im good thanks you?
 - good thanks how are you?
+- great! how are You?
+- good tahnks
+- good you?
+- Im dave how are you?
 
 ## intent:mood_unhappy
 - sad
@@ -117,6 +121,12 @@
 - what are are you?
 - what are you?
 - What can you talk about?
+- what are you?3.
+- what re you
+- what aer you?
+- what are u
+- what are you
+- waht are you
 
 ## intent:personal_question
 - what do you do for fun?
