@@ -230,9 +230,22 @@
 
 ## intent:request_education
 - have you studied Computer science?
+- are you studying?
+- have you studyed?
+- where did you study?
+- have you attended Collage?
+- have you attened Uni?
+- have you gone to uni?
+- have you gone to collage?
+- did you go to Uni?
+- do you have a degree?
+
 
 ## intent:question_education
 - do you enjoy it there?
+- was studying there good?
+
 
 ## intent:js_knowledge
 - So how well do you know JavaScript?
+- how well do you know js
