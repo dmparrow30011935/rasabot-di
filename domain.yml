@@ -21,6 +21,9 @@ intents:
 - greet+opinion
 - get_started
 - javascript_developer
+- request_education
+- question_education
+- js_knowledge
 responses:
   utter_greet:
   - text: Hey! How are you?
@@ -69,6 +72,16 @@ responses:
   - text: I really enjoy immersive extended reality and web design with a sleek user
       experience. I think the magic happens when the design and the technology fit
       together.
+  utter_my_education:
+  - text: I'm Currently studying at Toi Ohomai Institute of Technology and in my Last
+      semester of the level 6 software development program.
+  utter_i_enjoy_edu:
+  - text: It has been really good and i have learnt a lot in the two years i have
+      sent there.
+  utter_js_lvl:
+  - text: Pretty well! but there is always new things to learn in such a fast paced
+      environment! Hopefully in later implementations i will be able to answer technical
+      questions here but as of yet that is a bit beyond my skill set.
 actions:
 - utter_greet
 - utter_cheer_up
@@ -83,3 +96,6 @@ actions:
 - utter_bot_mood
 - utter_js_front
 - utter_anwser_js
+- utter_my_education
+- utter_i_enjoy_edu
+- utter_js_lvl

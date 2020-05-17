@@ -128,6 +128,7 @@
 - what are u
 - what are you
 - waht are you
+- good. what do you do?
 
 ## intent:personal_question
 - what do you do for fun?
@@ -182,6 +183,7 @@
 - maybe
 - yes we are as a matter of fact
 - My team and i are currently recruiting
+- yes we are
 
 ## intent:just_chating
 - no
@@ -224,3 +226,13 @@
 
 ## intent:question_js
 - How do you make frontend magic?
+- ? what do you mean
+
+## intent:request_education
+- have you studied Computer science?
+
+## intent:question_education
+- do you enjoy it there?
+
+## intent:js_knowledge
+- So how well do you know JavaScript?

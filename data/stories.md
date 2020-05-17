@@ -87,3 +87,23 @@
     - utter_js_front
 * question_js
     - utter_anwser_js
+
+## New Story
+
+* greet
+    - utter_greet
+* bot_challenge
+    - utter_iamabot
+    - utter_prompt_interview
+* hiring
+    - utter_what_kind_of_delevoper
+* javascript_developer
+    - utter_js_front
+* question_js
+    - utter_anwser_js
+* request_education
+    - utter_my_education
+* question_education
+    - utter_i_enjoy_edu
+* js_knowledge
+    - utter_js_lvl
