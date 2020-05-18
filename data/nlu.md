@@ -25,6 +25,7 @@
 - Hello sir
 - how's it going
 - hello how is it going
+- Hi
 
 ## intent:goodbye
 - bye
@@ -55,6 +56,7 @@
 - thank you
 - yes it did
 - thats cool
+- Thanks for cheering me up, yes I am.
 
 ## intent:deny
 - no
@@ -129,6 +131,7 @@
 - what are you
 - waht are you
 - good. what do you do?
+- Hello what is your name
 
 ## intent:personal_question
 - what do you do for fun?
@@ -139,6 +142,8 @@
 - do you have any hobbies
 - tell me about yourself
 - tell me about yourself?
+- what are your hobbies?
+- what are you hobbies?
 
 ## intent:acknowledge
 - ok
@@ -161,6 +166,7 @@
 - thats awesome
 - awesome
 - fab
+- Cool
 
 ## intent:greet+opinion
 - Bro this is freaking cool
@@ -184,6 +190,9 @@
 - yes we are as a matter of fact
 - My team and i are currently recruiting
 - yes we are
+- Not really. Cute but not really relevant. Do you want a job
+- yes I am
+- Yes we are. Do you do web development?
 
 ## intent:just_chating
 - no
@@ -239,12 +248,13 @@
 - have you gone to collage?
 - did you go to Uni?
 - do you have a degree?
-
+- yes what are your qualifications?
+- Where did you go to college?
 
 ## intent:question_education
 - do you enjoy it there?
 - was studying there good?
-
+- what are you qualifications?
 
 ## intent:js_knowledge
 - So how well do you know JavaScript?
