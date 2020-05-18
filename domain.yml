@@ -3,15 +3,15 @@ session_config:
   carry_over_slots_to_new_session: true
 intents:
 - question_js
-- insult
+- insult: {triggers: utter_respond_insult}
 - greet
 - goodbye
 - affirm
 - deny
 - mood_great
 - mood_unhappy
-- bot_challenge
-- personal_question
+- bot_challenge: {triggers: utter_iamabot}
+- personal_question 
 - hiring
 - just_chating
 - introduction
@@ -20,14 +20,28 @@ intents:
 - opinion+negative
 - greet+opinion
 - get_started
-- javascript_developer
+- type_developer
 - request_education
 - question_education
-- js_knowledge
+- weather: {triggers: utter_weather_response}
+
+entities:
+  - name
+  - type_dev
+
+slots:
+  name:
+    type: unfeaturized
+  type_dev:
+    type: text
+
 responses:
   utter_greet:
-  - text: Hey! How are you?
   - text: Good Morning!! And who am i talking to today?
+  utter_introduction:
+  - text: Hello {name}, How are you?
+  utter_greet_again:
+  - text: Hello agian {name}
   utter_cheer_up:
   - text: 'Here is something to cheer you up:'
     image: https://i.imgur.com/nGF1K8f.jpg
@@ -61,9 +75,9 @@ responses:
     - title: frontend Js
       payload: js
     - title: Backend
-      payload: js
+      payload: Backend
     - title: FullStack
-      payload: js
+      payload: FullStack
   utter_bot_mood:
   - text: I'm great thanks for asking.
   utter_js_front:
@@ -82,6 +96,10 @@ responses:
   - text: Pretty well! but there is always new things to learn in such a fast paced
       environment! Hopefully in later implementations i will be able to answer technical
       questions here but as of yet that is a bit beyond my skill set.
+  utter_weather_response:
+  - text: Its pretty warm here.
+  
+
 actions:
 - utter_greet
 - utter_cheer_up
@@ -99,3 +117,5 @@ actions:
 - utter_my_education
 - utter_i_enjoy_edu
 - utter_js_lvl
+- utter_greet_again
+- utter_weather_response

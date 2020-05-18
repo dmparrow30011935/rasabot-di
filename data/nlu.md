@@ -42,6 +42,15 @@
 - g2g bye
 - bbye
 
+## intent:weather
+- hows the weather?
+- whats the weather like?
+- hows the weather with you?
+- hows the weather today?
+- is the weather good?
+- is the weather bad?
+- weather near me?
+
 ## intent:affirm
 - yes
 - indeed
@@ -214,12 +223,446 @@
 - i hate you
 
 ## intent:introduction
-- my name is dave
-- dave arrow
-- im dave arrow
+- my name is [dave](name)
+- [dave arrow](name)
+- im [Dave arrow](name)
+- my name is [sally](name)
+- [Sanjeet Gupta](name)
+- im [Dave Arrow](name)
+- im called [Ali](name)
+- [Joe](name)
+- my name is [Joe](name)
+- [Gary](name)
+- my name is [Gary](name)- [Amber](name) Porter
+- I am [Heather](name) Serrano
+- I am [William](name) Gaines
+- I am [Devin](name) Hines
+- I am [Macey](name) Valencia
+- I am [Lev](name) Cunningham
+- I am [Tarik](name) Kinney
+- I am [Francis](name) Duffy
+- I am [Blaze](name) Blevins
+- I am [Briar](name) Jordan
+- I am [Ginger](name) Kelly
+- I am [Nero](name) Mosley
+- I am [Velma](name) Richardson
+- I am [Abdul](name) Kidd
+- I am [Medge](name) Santana
+- I am [Brynne](name) Petty
+- I am [Reagan](name) Pickett
+- I am [Cameron](name) Barton
+- I am [Connor](name) Colon
+- I am [Oren](name) Owens
+- I am [Hu](name) Atkins
+- I am [Wyoming](name) Benjamin
+- I am [Althea](name) Bentley
+- I am [Barrett](name) James
+- I am [Ivory](name) Merritt
+- I am [Dante](name) Patterson
+- I am [Wanda](name) Marshall
+- I am [Baker](name) Barnes
+- I am [Unity](name) Hoover
+- I am [Boris](name) Grimes
+- I am [Randall](name) Willis
+- I am [Solomon](name) Baxter
+- I am [Aladdin](name) Collins
+- I am [Alfreda](name) Simmons
+- I am [Tad](name) Herrera
+- I am [Dahlia](name) Carroll
+- I am [Nigel](name) Sears
+- I am [Abra](name) Serrano
+- I am [Addison](name) Cook
+- I am [Austin](name) French
+- I am [Serena](name) Swanson
+- I am [Marah](name) Ewing
+- I am [Erasmus](name) Gay
+- I am [Mariko](name) Wilder
+- I am [Kaye](name) Hill
+- I am [Jason](name) Pace
+- I am [Deborah](name) Strickland
+- I am [Dean](name) Lynn
+- I am [Kaseem](name) Shepherd
+- I am [Ishmael](name) Hendrix
+- I am [Leilani](name) Carlson
+- I am [Mari](name) Park
+- I am [Edan](name) Gilbert
+- I am [Madison](name) Solis
+- I am [Hollee](name) Farrell
+- I am [Virginia](name) Weaver
+- I am [Devin](name) Johnson
+- I am [Hyatt](name) Hobbs
+- I am [Kirby](name) Macdonald
+- I am [Warren](name) Klein
+- I am [Josiah](name) Guzman
+- I am [Clinton](name) Potter
+- I am [Yen](name) Workman
+- I am [Jolene](name) Sanford
+- I am [Abigail](name) Espinoza
+- I am [Ross](name) Strickland
+- I am [Portia](name) Rush
+- I am [Myra](name) Suarez
+- I am [Hunter](name) Ware
+- I am [Leo](name) Mitchell
+- I am [Joy](name) Mcneil
+- I am [Jermaine](name) Noble
+- I am [Azalia](name) Pope
+- I am [Cadman](name) Neal
+- I am [Uta](name) Coffey
+- I am [Odette](name) Kirkland
+- I am [Imelda](name) Delacruz
+- I am [Hiroko](name) Hoover
+- I am [Kadeem](name) Perkins
+- I am [Conan](name) Stephenson
+- I am [Elaine](name) Byrd
+- I am [Abra](name) Guthrie
+- I am [Philip](name) Galloway
+- I am [Hoyt](name) Alford
+- I am [Basia](name) Benjamin
+- I am [Magee](name) Hickman
+- I am [Ashely](name) Mccarty
+- I am [Elliott](name) Melendez
+- I am [Eugenia](name) Donovan
+- I am [Ferdinand](name) Dunn
+- I am [Aquila](name) Solomon
+- I am [Destiny](name) Myers
+- I am [Conan](name) Barrett
+- I am [Mallory](name) Donaldson
+- I am [Hector](name) Cunningham
+- I am [Aquila](name) Taylor
+- I am [Roanna](name) May
+- I am [Timothy](name) Rowland
+- I am [Roanna](name) Norman
+- I am [Neil](name) Sears
+- My name is [Amber](name) Porter
+- My name is [Heather](name) Serrano
+- My name is [William](name) Gaines
+- My name is [Devin](name) Hines
+- My name is [Macey](name) Valencia
+- My name is [Lev](name) Cunningham
+- My name is [Tarik](name) Kinney
+- My name is [Francis](name) Duffy
+- My name is [Blaze](name) Blevins
+- My name is [Briar](name) Jordan
+- My name is [Ginger](name) Kelly
+- My name is [Nero](name) Mosley
+- My name is [Velma](name) Richardson
+- My name is [Abdul](name) Kidd
+- My name is [Medge](name) Santana
+- My name is [Brynne](name) Petty
+- My name is [Reagan](name) Pickett
+- My name is [Cameron](name) Barton
+- My name is [Connor](name) Colon
+- My name is [Oren](name) Owens
+- My name is [Hu](name) Atkins
+- My name is [Wyoming](name) Benjamin
+- My name is [Althea](name) Bentley
+- My name is [Barrett](name) James
+- My name is [Ivory](name) Merritt
+- My name is [Dante](name) Patterson
+- My name is [Wanda](name) Marshall
+- My name is [Baker](name) Barnes
+- My name is [Unity](name) Hoover
+- My name is [Boris](name) Grimes
+- My name is [Randall](name) Willis
+- My name is [Solomon](name) Baxter
+- My name is [Aladdin](name) Collins
+- My name is [Alfreda](name) Simmons
+- My name is [Tad](name) Herrera
+- My name is [Dahlia](name) Carroll
+- My name is [Nigel](name) Sears
+- My name is [Abra](name) Serrano
+- My name is [Addison](name) Cook
+- My name is [Austin](name) French
+- My name is [Serena](name) Swanson
+- My name is [Marah](name) Ewing
+- My name is [Erasmus](name) Gay
+- My name is [Mariko](name) Wilder
+- My name is [Kaye](name) Hill
+- My name is [Jason](name) Pace
+- My name is [Deborah](name) Strickland
+- My name is [Dean](name) Lynn
+- My name is [Kaseem](name) Shepherd
+- My name is [Ishmael](name) Hendrix
+- My name is [Leilani](name) Carlson
+- My name is [Mari](name) Park
+- My name is [Edan](name) Gilbert
+- My name is [Madison](name) Solis
+- My name is [Hollee](name) Farrell
+- My name is [Virginia](name) Weaver
+- My name is [Devin](name) Johnson
+- My name is [Hyatt](name) Hobbs
+- My name is [Kirby](name) Macdonald
+- My name is [Warren](name) Klein
+- My name is [Josiah](name) Guzman
+- My name is [Clinton](name) Potter
+- My name is [Yen](name) Workman
+- My name is [Jolene](name) Sanford
+- My name is [Abigail](name) Espinoza
+- My name is [Ross](name) Strickland
+- My name is [Portia](name) Rush
+- My name is [Myra](name) Suarez
+- My name is [Hunter](name) Ware
+- My name is [Leo](name) Mitchell
+- My name is [Joy](name) Mcneil
+- My name is [Jermaine](name) Noble
+- My name is [Azalia](name) Pope
+- My name is [Cadman](name) Neal
+- My name is [Uta](name) Coffey
+- My name is [Odette](name) Kirkland
+- My name is [Imelda](name) Delacruz
+- My name is [Hiroko](name) Hoover
+- My name is [Kadeem](name) Perkins
+- My name is [Conan](name) Stephenson
+- My name is [Elaine](name) Byrd
+- My name is [Abra](name) Guthrie
+- My name is [Philip](name) Galloway
+- My name is [Hoyt](name) Alford
+- My name is [Basia](name) Benjamin
+- My name is [Magee](name) Hickman
+- My name is [Ashely](name) Mccarty
+- My name is [Elliott](name) Melendez
+- My name is [Eugenia](name) Donovan
+- My name is [Ferdinand](name) Dunn
+- My name is [Aquila](name) Solomon
+- My name is [Destiny](name) Myers
+- My name is [Conan](name) Barrett
+- My name is [Mallory](name) Donaldson
+- My name is [Hector](name) Cunningham
+- My name is [Aquila](name) Taylor
+- My name is [Roanna](name) May
+- My name is [Timothy](name) Rowland
+- My name is [Roanna](name) Norman
+- My name is [Neil](name) Sears
+- [Amber](name) Porter
+- [Heather](name) Serrano
+- [William](name) Gaines
+- [Devin](name) Hines
+- [Macey](name) Valencia
+- [Lev](name) Cunningham
+- [Tarik](name) Kinney
+- [Francis](name) Duffy
+- [Blaze](name) Blevins
+- [Briar](name) Jordan
+- [Ginger](name) Kelly
+- [Nero](name) Mosley
+- [Velma](name) Richardson
+- [Abdul](name) Kidd
+- [Medge](name) Santana
+- [Brynne](name) Petty
+- [Reagan](name) Pickett
+- [Cameron](name) Barton
+- [Connor](name) Colon
+- [Oren](name) Owens
+- [Hu](name) Atkins
+- [Wyoming](name) Benjamin
+- [Althea](name) Bentley
+- [Barrett](name) James
+- [Ivory](name) Merritt
+- [Dante](name) Patterson
+- [Wanda](name) Marshall
+- [Baker](name) Barnes
+- [Unity](name) Hoover
+- [Boris](name) Grimes
+- [Randall](name) Willis
+- [Solomon](name) Baxter
+- [Aladdin](name) Collins
+- [Alfreda](name) Simmons
+- [Tad](name) Herrera
+- [Dahlia](name) Carroll
+- [Nigel](name) Sears
+- [Abra](name) Serrano
+- [Addison](name) Cook
+- [Austin](name) French
+- [Serena](name) Swanson
+- [Marah](name) Ewing
+- [Erasmus](name) Gay
+- [Mariko](name) Wilder
+- [Kaye](name) Hill
+- [Jason](name) Pace
+- [Deborah](name) Strickland
+- [Dean](name) Lynn
+- [Kaseem](name) Shepherd
+- [Ishmael](name) Hendrix
+- [Leilani](name) Carlson
+- [Mari](name) Park
+- [Edan](name) Gilbert
+- [Madison](name) Solis
+- [Hollee](name) Farrell
+- [Virginia](name) Weaver
+- [Devin](name) Johnson
+- [Hyatt](name) Hobbs
+- [Kirby](name) Macdonald
+- [Warren](name) Klein
+- [Josiah](name) Guzman
+- [Clinton](name) Potter
+- [Yen](name) Workman
+- [Jolene](name) Sanford
+- [Abigail](name) Espinoza
+- [Ross](name) Strickland
+- [Portia](name) Rush
+- [Myra](name) Suarez
+- [Hunter](name) Ware
+- [Leo](name) Mitchell
+- [Joy](name) Mcneil
+- [Jermaine](name) Noble
+- [Azalia](name) Pope
+- [Cadman](name) Neal
+- [Uta](name) Coffey
+- [Odette](name) Kirkland
+- [Imelda](name) Delacruz
+- [Hiroko](name) Hoover
+- [Kadeem](name) Perkins
+- [Conan](name) Stephenson
+- [Elaine](name) Byrd
+- [Abra](name) Guthrie
+- [Philip](name) Galloway
+- [Hoyt](name) Alford
+- [Basia](name) Benjamin
+- [Magee](name) Hickman
+- [Ashely](name) Mccarty
+- [Elliott](name) Melendez
+- [Eugenia](name) Donovan
+- [Ferdinand](name) Dunn
+- [Aquila](name) Solomon
+- [Destiny](name) Myers
+- [Conan](name) Barrett
+- [Mallory](name) Donaldson
+- [Hector](name) Cunningham
+- [Aquila](name) Taylor
+- [Roanna](name) May
+- [Timothy](name) Rowland
+- [Roanna](name) Norman
+- [Neil](name)Sears 
+- [Amber](name)
+- [Heather](name)
+- [William](name)
+- [Devin](name)
+- [Macey](name)
+- [Lev](name)
+- [Tarik](name)
+- [Francis](name)
+- [Blaze](name)
+- [Briar](name)
+- [Ginger](name)
+- [Nero](name)
+- [Velma](name)
+- [Abdul](name)
+- [Medge](name)
+- [Brynne](name)
+- [Reagan](name)
+- [Cameron](name)
+- [Connor](name)
+- [Oren](name)
+- [Hu](name)
+- [Wyoming](name)
+- [Althea](name)
+- [Barrett](name)
+- [Ivory](name)
+- [Dante](name)
+- [Wanda](name)
+- [Baker](name)
+- [Unity](name)
+- [Boris](name)
+- [Randall](name)
+- [Solomon](name)
+- [Aladdin](name)
+- [Alfreda](name)
+- [Tad](name)
+- [Dahlia](name)
+- [Nigel](name)
+- [Abra](name)
+- [Addison](name)
+- [Austin](name)
+- [Serena](name)
+- [Marah](name)
+- [Erasmus](name)
+- [Mariko](name)
+- [Kaye](name)
+- [Jason](name)
+- [Deborah](name)
+- [Dean](name)
+- [Kaseem](name)
+- [Ishmael](name)
+- [Leilani](name)
+- [Mari](name)
+- [Edan](name)
+- [Madison](name)
+- [Hollee](name)
+- [Virginia](name)
+- [Devin](name)
+- [Hyatt](name)
+- [Kirby](name)
+- [Warren](name)
+- [Josiah](name)
+- [Clinton](name)
+- [Yen](name)
+- [Jolene](name)
+- [Abigail](name)
+- [Ross](name)
+- [Portia](name)
+- [Myra](name)
+- [Hunter](name)
+- [Leo](name)
+- [Joy](name)
+- [Jermaine](name)
+- [Azalia](name)
+- [Cadman](name)
+- [Uta](name)
+- [Odette](name)
+- [Imelda](name)
+- [Hiroko](name)
+- [Kadeem](name)
+- [Conan](name)
+- [Elaine](name)
+- [Abra](name)
+- [Philip](name)
+- [Hoyt](name)
+- [Basia](name)
+- [Magee](name)
+- [Ashely](name)
+- [Elliott](name)
+- [Eugenia](name)
+- [Ferdinand](name)
+- [Aquila](name)
+- [Destiny](name)
+- [Conan](name)
+- [Mallory](name)
+- [Hector](name)
+- [Aquila](name)
+- [Roanna](name)
+- [Timothy](name)
+- [Roanna](name)
+- [Neil](name)
+                   
+## intent:type_developer
+- [js](type_dev)
+- [backend](type_dev)
+- [fullstack](type_dev)
+- im looking for a [js](type_dev) developer
+- im looking for a [backend](type_dev) developer
+- im looking for a [fullstack](type_dev) developer
+- we really need a [js](type_dev) developer.
+- a [js](type_dev) developer would be awesome.
+- we really need a [backend](type_dev) developer.
+- a [backend](type_dev) developer would be awesome.
+- we really need a [fullstack](type_dev) developer.
+- a [fullstack](type_dev) developer would be awesome.
 
-## intent:javascript_developer
-- js
+## synonym:js
+- React.js
+- React
+- .js
+- JS
+- Js
+- .JS
+- .js
+- react
+- react.js
+- Angular
+- javascript
+- javaScript
+- JavaScript
+
 
 ## intent:get_started
 - /get_started
