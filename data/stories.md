@@ -44,6 +44,7 @@
   - utter_goodbye
 
 ## say goodbye
+> introduced
 * goodbye
   - utter_goodbye
   - action_session_start
